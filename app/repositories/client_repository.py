@@ -18,3 +18,4 @@ class ClientRepository:
         rows = cursor.fetchall()
         conn.close()
         return rows
+
